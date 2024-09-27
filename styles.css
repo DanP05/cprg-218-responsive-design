@@ -6,6 +6,9 @@ body{
     background-color: blue;
     color: white
 }
+img{ 
+    float: right;
+}
 
 
 @media only screen and (max-width:480px) {
@@ -13,10 +16,15 @@ body{
         background: red;
 
     }
+    img{
+        float: none;
+        width: 100%;
+    }
 }
 @media only screen and (max-width:320px) {
     body{
         background: greenyellow;
+        color: black;
 
 
     }
